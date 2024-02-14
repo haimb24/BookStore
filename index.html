@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="center" lang="heb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myBookStore</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+
+<body onload="onInit()">
+    <h1>MyBookStore</h1>
+<button onclick="OnAddBook()">Create new book</button>
+
+<div class="mybooks">
+<table>
+    <caption>Books Inventory</caption>
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Book's Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Harry Potter1</td>
+        <td>22</td>
+        <td>
+            <button class="read" onclick="OnAddBook()">Read</button>
+            <button class="update" onclick="updateBook()">Update</button>
+            <button class="delete" onclick="removeBook()">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Harry Potter2</td>
+        <td>45</td>
+        <td>
+            <button class="read" onclick="OnAddBook()">Read</button>
+            <button class="update" onclick="updateBook()">Update</button>
+            <button class="delete" onclick="removeBook()">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Harry Potter3</td>
+        <td>29</td>
+        <td>
+            <button class="read" onclick="OnAddBook()">Read</button>
+            <button class="update" onclick="updateBook()">Update</button>
+            <button class="delete" onclick="removeBook()">Delete</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Harry Potter4</td>
+        <td>36</td>
+        <td>
+            <button class="read" onclick="OnAddBook()">Read</button>
+            <button class="update" onclick="updateBook()">Update</button>
+            <button class="delete" onclick="removeBook()">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+    <script src="js/util.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controller.js"></script>
+
+</body>
+</html>

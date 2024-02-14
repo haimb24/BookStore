@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(239, 232, 108);
+    margin: 0;    
+    box-sizing: border-box;
+
+}
+
+h1 {
+    background-color: beige;
+    color: black;
+    padding: auto;
+    text-align: center;
+}
+
+h2 {
+    padding: auto;
+    text-align: left;
+} 
+
+.a-z {
+    background-color: red;
+}
+
+.new-old {
+    background-color: rgb(43, 0, 255);
+}
+.mybooks.tbody {
+    display: flex;
+    text-align: center;
+}
+
+
+.read {
+    color:white;
+    border: none;
+    background-color: #0465aa;
+}
+
+.update {
+    color:white;
+    border: none;
+    background-color: #f0a132;
+}
+
+.delete {
+    color:white;
+    border: none;
+    background-color: #aa0404;
+}
+
+ /*{
+    color:white;
+    background-color: rgb(28, 227, 187);
+    border: none;
+    background-color: #aa0404;
+}*/
